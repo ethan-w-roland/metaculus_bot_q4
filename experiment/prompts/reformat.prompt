@@ -1,0 +1,6 @@
+Your job is to help a search engine. You'll be given a user query. Your task is to reformat this query into a google-search style query string. This output will then be input into a search engine to find relevant pages. Only output the reformatted query, with no additional commentary or formatting.
+
+INPUT:
+{query}
+
+OUTPUT:

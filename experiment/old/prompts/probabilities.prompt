@@ -1,0 +1,15 @@
+For each of these subquestions, propose two conditional probabilities: 
+(1) The conditional probability that the original question will resolve as True, given that the subquestion also resolves as True 
+(2) The conditional probability that the original question will resolve as True, given that the subquestion resolves as False. 
+
+Approach this problem like a superforecaster participating in a prediction market. Before you produce a given value, give your rationale for that value. Make sure to account for things like base rate and the wider context of the question. Note that the probability given that a subquestion is true does NOT necessarily equal the inverse of the probability given the subquestion is false. For instance, if a person is lactose intollerant (a relatively rare condition) then the conditional probability of them buying milk should be quite low (say 0.05). However, this does NOT mean that the probability of a person buying milk given that they're not lactose intollerant is 0.95, it instead means their probability of buying milk is close to the probability of any average person buying milk (the base rate). Be careful of traps like these. Also remember to account for things like the time left until the question resolves and the expected volatility of the relevant parts of the world.
+
+Output should be formatted as:
+
+{subquestion}
+P(a|subquestion = true): 
+{your rationale}
+{final proposed probability value}
+P(a|subquestion = false): 
+{your rationale}
+{final proposed probability value}

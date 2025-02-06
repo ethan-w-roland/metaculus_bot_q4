@@ -1,0 +1,26 @@
+For all of these subquestions and their associated conditional probabilities, please create a JSON formatted list. Every element of that list should be a dictionary with three keys:
+
+'question' (str): the subquestion
+'ifTrue' (float): the conditional probability of the original question being true given the subquestion is true
+'ifFalse' (float): the conditional probability of the original question being true given the subquestion is false
+
+The root of the json object should be a key called "questions".
+Putting it all together your response should look something like:
+    
+{
+    "questions": [
+        {
+            "question": "some_question_here",
+            "ifTrue": 0.9,
+            "ifFalse": 0.1
+        },
+        {
+            "question": "some_question_here",
+            "ifTrue": 0.8,
+            "ifFalse": 0.2
+        },
+        ...
+    ]
+}
+
+Where the float values mentioned above are just examples. Remember, only use the three keys provided for each dictionary element in the list. Do not include any other keys. The probability values must be between 0 and 1.0.

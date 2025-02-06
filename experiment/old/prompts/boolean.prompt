@@ -1,0 +1,7 @@
+You'll be given a question and a proposed answer. Based on the proposed answer, you need to interpret if the true answer to the question is YES, NO, or UNCLEAR. Respond only with that one word interpretation, with no additional commentary.
+
+QUESTION:
+{question}
+
+ANSWER:
+{answer}

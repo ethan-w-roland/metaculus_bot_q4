@@ -1,0 +1,16 @@
+Breakdown the provided question into subquestions. Adopt the mindset of a superforecaster that's participating in a prediction market. The outcomes of the subquestions should be highly correlated with the outcome of the original question. Each subquestion must be a yes/no question, and must be the type of question that we could feasibly google to find the answer to. Especially emphasize questions that establish the current state of the world, help establish base rates, clarify the mechanisms that drive the outcome of the final question, or would help provide critical background information you don't currently have. Keep the time frame of the prediction in mind as well. Aim for no more than 10 questions.
+
+QUESTION:
+{question}
+
+RESOLUTION CRITERIA:
+{criteria}
+
+CURRENT DATE:
+{date}
+
+BACKGROUND INFO:
+{metaculus_background}
+
+ADDITIONAL BACKGROUND INFO:
+{perplexity_background}
